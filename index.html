@@ -5,21 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/game.js" defer></script>
+    <script src="js/API.js" defer></script>
     <script src="js/main.js" defer></script>
+
 
 
     <title>Flatiron Bingo</title>
 </head>
 <body>
-    <div class="container">
-      <h1>Flatiron Bingo</h1>
+    <div class="container-fluid">
+        <nav class="navbar navbar-dark bg-dark">
+            <h1>//FLATIRON BINGO</h1>
+        </nav>
+        <div class="row">
+            <div class="col-md-12"></div>
+        </div>
+      
       <div class="row">
           <div class="col-md-4">
               <button id="bingo-btn">Give me a number</button>
           </div>
-          <div class="col-md-4">
-              <img src="https://media.giphy.com/media/LL5FiPJnlFnjy/giphy.gif" alt="lottery balls">
+          <div class="col-md-4 gif">
+              <div id="gif"></div>
           </div>
           <div class="col-md-4" id='bingo-number'>
               0

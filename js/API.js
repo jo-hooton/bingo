@@ -1,15 +1,7 @@
 class API {
-    // Create a request variable and assign a new XMLHttpRequest object to it.
-    const request = new XMLHttpRequest()
 
-    // Open a new connection, using the GET request on the URL endpoint
-    request.open('GET', 'https://ghibliapi.herokuapp.com/films', true)
-
-    request.onload = function () {
-    // Begin accessing JSON data here
-    }
-
-    // Send request
-    request.send()
-
-}
+  getGif = number =>
+    fetch(`http://api.giphy.com/v1/gifs/random?q=${number}&api_key=sytH0PbeMCXrff6ySBcJTexa4IP6n9ez&limit=1`)
+      .then(res => res.json())
+      .then(json => json.data.images.original.url)
+} 
