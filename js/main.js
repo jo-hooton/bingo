@@ -11,7 +11,8 @@ handleClick = () => {
 }
 
 renderGif = number => {
-    api.getGif(number)
+    phrase = game.getPhrase(number)
+    api.getGif(phrase)
     .then(url => gif.style.backgroundImage=`url(${url})`)
 }
 

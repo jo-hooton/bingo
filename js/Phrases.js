@@ -1,5 +1,7 @@
-{ "phrases": {
-    "1": "Kelly's Eye",
+ class Phrases {
+ 
+  phrases = {
+    "1": "Kellys Eye",
     "2": "One little duck",
     "3": "Cup of tea",
     "4": "Knock at the door",
@@ -24,7 +26,7 @@
     "23": "The Lord is My Shepherd",
     "24": "Double dozen",
     "25": "Duck and dive",
-    "26": "Two and six, half a crown",
+    "26": "Two and six half a crown",
     "27": "Duck and a crutch",
     "28": "In a state",
     "29": "Rise and Shine",
@@ -60,7 +62,7 @@
     "59": "The Brighton Line",
     "60": "Grandmas getting frisky",
     "61": "Your mum",
-    "62": "Tickety-boo",
+    "62": "Tickety boo",
     "63": "Rooby",
     "64": "Almost retired",
     "65": "Retirement age",
@@ -75,4 +77,6 @@
     "74": "Hit the Floor",
     "75": "High five"
   }
+
+ 
 }

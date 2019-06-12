@@ -5,8 +5,14 @@
 
 }
 
+.header-slash {
+    color: #00b3e6;
+    font-size: 7em;
+}
+
 .header-text {
     color: white;
+    font-size: 7em;
 }
 
 #gif {

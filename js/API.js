@@ -1,13 +1,9 @@
 class API {
 
-  getPhrase = newNumber =>
-    const number = String(newNumber)
-    fetch('slang.json')
+  getGif = phrase => {
+    return fetch(`http://api.giphy.com/v1/gifs/search?q=${phrase}&api_key=sytH0PbeMCXrff6ySBcJTexa4IP6n9ez&limit=1`)
       .then(res => res.json())
-      .then(json => json.phrases.number)
+      .then(json => json.data[0].images.original.url)
+  }
 
-  getGif = number =>
-    fetch(`http://api.giphy.com/v1/gifs/random?q=${number}&api_key=sytH0PbeMCXrff6ySBcJTexa4IP6n9ez&limit=1`)
-      .then(res => res.json())
-      .then(json => json.data.images.original.url)
-} 
+}
