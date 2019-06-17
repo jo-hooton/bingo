@@ -60,14 +60,16 @@ body {
 	color: white;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 4rem;
+	font-size: 2em;
 	margin: 1rem;
 	min-width: 200px;
 	padding: 20px;
     text-transform: uppercase;
     height: 30vh;
     width: 40vh;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn.primary {
