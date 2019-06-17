@@ -2,7 +2,10 @@
 
 * {
     font-family: 'VT323', monospace;
+}
 
+body {
+    background-image: url(https://media.giphy.com/media/VZJ4emogvagBG/giphy.gif);
 }
 
 .header-slash {
@@ -13,6 +16,7 @@
 .header-text {
     color: white;
     font-size: 7em;
+    
 }
 
 #gif {
@@ -22,6 +26,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 10%;
+    padding: 20px;
 }
 
 .container-fluid {
@@ -31,4 +37,40 @@
 
 body {
     background-color: #111111;
+}
+
+#bingo-number {
+    background-image: url(https://media.giphy.com/media/4QFLhHcKjG3OOmnDUk/giphy.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 40vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+	background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 4rem;
+	margin: 1rem;
+	min-width: 200px;
+	padding: 20px;
+    text-transform: uppercase;
+    height: 30vh;
+    width: 40vh;
+
+}
+
+.btn.primary {
+	background: #00b3e6;
+
 }

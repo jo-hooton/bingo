@@ -10,6 +10,7 @@
     <script src="js/API.js" defer></script>
     <script src="js/Phrases.js" defer></script>
     <script src="js/Main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
 
 
 
@@ -17,23 +18,26 @@
 </head>
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-dark bg-dark">
-            <p class="header-slash">//</p><h1 class="header-text">FLATIRON BINGO</h1>
+        <nav class="navbar navbar-dark bg-dark scroll">
+                <marquee behavior="scroll" direction="left"><span class="header-slash">//</span><span class="header-text">FLATIRON BINGO</span></marquee>
+
+            
         </nav>
         <div class="row">
             <div class="col-md-12"></div>
         </div>
       
       <div class="row">
+          <div class="col-md-4" id='bingo-number'>
+                   <span id="bingo-number-text">0</span>
+          </div>
           <div class="col-md-4">
-              <button id="bingo-btn">Give me a number</button>
+              <button class="btn primary" id="bingo-btn">NUMBERBANG !!</button>
           </div>
           <div class="col-md-4 gif">
               <div id="gif"></div>
           </div>
-          <div class="col-md-4 header-text" id='bingo-number'>
-              0
-          </div>
+          
       </div>
     </div>
 </body>
